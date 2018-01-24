@@ -1,8 +1,7 @@
 # jwt-login
 
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/jwt-login)
-[![npm](https://img.shields.io/npm/dt/express.svg)]([![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/jwt-login))
-[![npm](https://img.shields.io/npm/l/express.svg)]([![npm](https://img.shields.io/npm/dt/express.svg)]([![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/jwt-login)))
+![verson](https://img.shields.io/badge/version-0.0.1-green.svg)
+![License](https://img.shields.io/badge/License-MIT-yellowgreen.svg)
 
 
 
