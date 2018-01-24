@@ -1,5 +1,9 @@
 # jwt-login
-![version 0.0.1](https://img.shields.io/badge/version-0.0.1-green.svg)
+
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/jwt-login)
+[![npm](https://img.shields.io/npm/dt/express.svg)]([![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/jwt-login))
+[![npm](https://img.shields.io/npm/l/express.svg)]([![npm](https://img.shields.io/npm/dt/express.svg)]([![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/jwt-login)))
+
 
 
 This javascript node module. It is for creating javascript web token and also validating it.
