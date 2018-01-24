@@ -1,0 +1,27 @@
+{
+  "name": "jwt-login",
+  "version": "0.0.0",
+  "description": "This is javascript web token for login with JWT and validadation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umeshramya/jwt-login.git"
+  },
+  "keywords": [
+    "JWT",
+    "login",
+    "auth"
+  ],
+  "author": "Dr Umesh R Bilagi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umeshramya/jwt-login/issues"
+  },
+  "homepage": "https://github.com/umeshramya/jwt-login#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
