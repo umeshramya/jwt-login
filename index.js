@@ -37,16 +37,22 @@ exports.createJWT = createJWT;
 
 var validateJWT= function(jwt){
     // this method validates the JWT recived
-    var jwtArray = jwt.split(".");
-    var headerDecoded = decode_base64(jwtArray[0]);
-    var payloadDecoded = decode_base64(jwtArray[1]);
-    var checkJWT = createJWT(JSON.parse(payloadDecoded), JSON.parse(headerDecoded));
-
-    if(checkJWT == jwt){
-        return payloadDecoded;
-    }else{
+    try {
+        var jwtArray = jwt.split(".");
+        var headerDecoded = decode_base64(jwtArray[0]);
+        var payloadDecoded = decode_base64(jwtArray[1]);
+        var checkJWT = createJWT(JSON.parse(payloadDecoded), JSON.parse(headerDecoded));
+    
+        if(checkJWT == jwt){
+            return payloadDecoded;
+        }else{
+            return false
+        }
+        
+    } catch (error) {
         return false
     }
+
     
 }
 exports.validateJWT = validateJWT;
