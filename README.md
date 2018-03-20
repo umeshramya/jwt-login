@@ -1,5 +1,8 @@
 # jwt-login
-![version 0.0.1](https://img.shields.io/badge/version-0.0.2-green.svg)
+
+![verson](https://img.shields.io/badge/version-0.0.2-green.svg)
+![License](https://img.shields.io/badge/License-MIT-yellowgreen.svg)
+
 
 
 This javascript node module. It is for creating javascript web token and also validating it.
