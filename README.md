@@ -13,6 +13,9 @@ under the hood it uses crypto-js
 1. setSecretKey
 2. createJWT
 3. validateJWT
+4. sign
+5. signout
+6. validate_login
 
 
 ### include in your project
